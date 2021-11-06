@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng.org/testng-1.0.dtd">
+
+<suite verbose="0" name="Default suite">
+    <parameter name="env"  value="LOCAL"/>
+    <test verbose="2" name="Default test" preserve-order="false">
+        <classes>
+            <class name="tests.api.Location" />
+            <class name="tests.api.LocationDay" />
+            <class name="tests.api.SearchLocation" />
+            <class name="tests.ui.CheckBoxTest" />
+            <class name="tests.ui.DynamicLoadingTest" />
+            <class name="tests.ui.FramesTest" />
+        </classes>
+    </test>
+</suite>
